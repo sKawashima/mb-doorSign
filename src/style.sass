@@ -1,0 +1,49 @@
+@import ../node_modules/reset-css/sass/_reset
+@import noto-fontface-cjk-jp
+
+@page
+  size: landscape
+
+#sign
+  display: flex
+  flex-flow: column
+  justify-content: center
+  align-items: center
+  height: 100vh
+
+.editable
+  font-size: 1.2em
+
+body
+  color: #333
+  font-family: 'Roboto'
+
+h1
+  font-size: 4rem
+  color: #009544
+  font-weight: bold
+  margin-bottom: 2rem
+
+#name
+  text-align: center
+  .editable
+    font-size: 4rem
+    font-weight: bold
+    line-height: 1.2em
+  .uneditable
+    font-size: 2rem
+    margin-left: .5rem
+
+#time
+  font-size: 2rem
+  .uneditable
+    margin: 0 .5rem
+
+#name,
+#time,
+#caution
+  margin-top: 2rem
+
+#caution
+  margin-top: 2rem
+  font-size: 1.5em
